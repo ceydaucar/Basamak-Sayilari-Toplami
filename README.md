@@ -15,7 +15,7 @@ Bir sayının basamak sayılarının toplamını hesaplayan program yazınız.
 
           Scanner sc =  new Scanner(System.in);
 
-          System.out.print("Sayı giriniz:");
+          System.out.println("Enter the number: ");
           int n = sc.nextInt();
 
           int sum = 0;
@@ -27,6 +27,6 @@ Bir sayının basamak sayılarının toplamını hesaplayan program yazınız.
 
           }
 
-          System.out.println("Sum of digits:" + sum);
+          System.out.println("Sum of digits: " + sum);
         }
       }
